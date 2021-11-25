@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="ResourceName">
+
+    <!-- Color when the row is selected -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp" />
+            <size android:width="@dimen/sdkfad_base_button_width" android:height="@dimen/sdkfad_base_button_height" />
+            <solid android:color="#000" />
+        </shape>
+    </item>
+
+    <!-- Standard background color -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp" />
+            <size android:width="@dimen/sdkfad_base_button_width" android:height="@dimen/sdkfad_base_button_height" />
+            <solid android:color="#c3c3c3" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractDataDto>
+    <acceptanceLegend>Yo NombreDelFirmante ratifico mi aceptación de los compromisos estipulados en el presente documento denominado NombreDelDocumento, hoy FechaDeFirma.</acceptanceLegend>
+    <acceptanceVideoNotRequired>false</acceptanceVideoNotRequired>
+    <certificate>
+        <page>7</page>
+        <positionX1>13.8158</positionX1>
+        <positionX2>87.8836</positionX2>
+        <positionY1>59.746</positionY1>
+        <positionY2>70.9765</positionY2>
+    </certificate>
+    <cnsf>NA-AT</cnsf>
+    <contractName>Contrato Bidireccional</contractName>
+    <currentVersion>0</currentVersion>
+    <dateContractRequisition>2017-11-09 13:35</dateContractRequisition>
+    <idCompany>3</idCompany>
+    <idRequisition>6ac7130d-1412-47a6-bab0-fd5c097a65e0</idRequisition>
+    <idRequisitionClient>31</idRequisitionClient>
+    <nameCompany>NA-AT</nameCompany>
+    <signers>
+        <authenticationData>a</authenticationData>
+        <authenticationType>Autenticación</authenticationType>
+        <order>1</order>
+        <phone>5510484105</phone>
+        <mail>amartinez@na-at.com.mx</mail>
+        <signatures>
+            <centerX>67.83070000000001</centerX>
+            <centerY>51.842214999999996</centerY>
+            <optional>false</optional>
+            <page>5</page>
+            <positionX1>52.963</positionX1>
+            <positionX2>82.69839999999999</positionX2>
+            <positionY1>49.1438</positionY1>
+            <positionY2>54.54063</positionY2>
+            <signerType>Firmante</signerType>
+        </signatures>
+        <signatures>
+            <centerX>67.83070000000001</centerX>
+            <centerY>51.842214999999996</centerY>
+            <optional>false</optional>
+            <page>6</page>
+            <positionX1>52.963</positionX1>
+            <positionX2>82.69839999999999</positionX2>
+            <positionY1>49.1438</positionY1>
+            <positionY2>54.54063</positionY2>
+            <signerType>Firmante</signerType>
+        </signatures>
+        <signatures>
+            <centerX>67.83070000000001</centerX>
+            <centerY>51.842214999999996</centerY>
+            <optional>false</optional>
+            <page>7</page>
+            <positionX1>52.963</positionX1>
+            <positionX2>82.69839999999999</positionX2>
+            <positionY1>49.1438</positionY1>
+            <positionY2>54.54063</positionY2>
+            <signerType>Firmante</signerType>
+        </signatures>
+        <signerName>a a a</signerName>
+    </signers>
+</contractDataDto>
+

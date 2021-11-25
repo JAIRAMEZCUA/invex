@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/invex_layout_margin"
+    android:background="@drawable/bg_round_rect"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/SubTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/invex_layout_margin"
+        android:text="@string/sign_send_complete_dialog_text" />
+
+    <TextView
+        android:id="@+id/tv_send_email"
+        style="@style/Fad_SubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/fad_view_margin"
+        android:layout_marginEnd="@dimen/fad_view_margin"
+        android:gravity="center"
+        android:text="@string/sign_send_email"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp">
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            style="@style/BaseButtonGray"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/btn_dialog_accept"
+            style="@style/BaseButton"
+            android:layout_marginLeft="16dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+
+    </LinearLayout>
+
+</LinearLayout>

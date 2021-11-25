@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text" tools:ignore="ResourceName">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SimpleTitle" parent="Text">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SubTitle" parent="Text">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Title" parent="SimpleTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BaseButton" tools:ignore="ResourceName">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:height">45dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#a7a7df</item>
+        <item name="android:background">@drawable/base_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BaseButtonGray" parent="BaseButton">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:height">45dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccentSecundaryFAD</item>
+        <item name="android:background">@drawable/base_button_gray_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <!--    <style name="ButtonThemeWhiteFAD" parent="ButtonThemeFAD">-->
+    <style name="ButtonThemeWhiteFAD">
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/base_button_gray</item>
+    </style>
+
+
+    <style name="Fad_BaseButton">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <!--        <item name="android:fontFamily">sans-serif</item>-->
+        <item name="android:height">45dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccentFAD</item>
+        <item name="android:background">@drawable/base_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Fad_AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="checkBoxStyle" parent="AppTheme">
+        <item name="colorAccent">@color/colorAccentFAD</item>
+        <item name="android:textColorSecondary">@color/colorAccentSecundaryFAD</item>
+    </style>
+
+</resources>

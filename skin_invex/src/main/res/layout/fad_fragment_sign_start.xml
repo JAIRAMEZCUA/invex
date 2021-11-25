@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facetec_foreground"
+    tools:context=".presentation.main.ui.SignStartFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/fad_view_margin"
+            android:layout_marginTop="@dimen/fad_view_margin"
+            android:layout_marginEnd="@dimen/fad_view_margin"
+            android:text="@string/sign_start_title" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/fad_view_margin"
+            android:layout_marginTop="@dimen/fad_view_margin"
+            android:layout_marginEnd="@dimen/fad_view_margin"
+            android:text="@string/sign_start_text" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="@dimen/fad_view_margin"
+            android:layout_marginTop="@dimen/fad_view_margin"
+            android:layout_marginEnd="@dimen/fad_view_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/fad_ic_start_document" />
+
+        <FrameLayout
+            style="@style/SubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/fad_bg_info_text"
+            android:padding="@dimen/fad_view_margin">
+
+            <TextView
+                style="@style/SubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:textSize="18sp"
+                android:text="@string/sign_instructions_info"
+                android:textColor="#5A5CA5" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_continue"
+        style="@style/BaseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/fad_view_margin"
+        android:layout_marginEnd="@dimen/fad_view_margin"
+        android:layout_marginBottom="17dp"
+        android:text="@string/sign_start_continue" />
+
+</RelativeLayout>

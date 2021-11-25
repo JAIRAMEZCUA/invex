@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#000000</color>
+    <color name="colorAccent">#E7760C</color>
+    <color name="progressbar_tint">#E7760C</color>
+
+    <color name="facetec_primary">#ffffff</color>
+    <color name="facetec_foreground">#ffffff</color>
+    <color name="facetec_background">#000000</color>
+    <color name="facetec_text">#000000</color>
+    <color name="colorPrimaryFAD">#000000</color>
+    <color name="colorAccentFAD">#8F9ADA</color>
+
+    <!-- FAD -->
+    <color name="colorButton">#000000</color>
+    <color name="colorPrimaryDarkFAD">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="buttonContorno">#b4bcf4</color>
+    <color name="colorAccentSecundaryFAD">#6A2A3163</color>
+    <color name="colorHeader">#777AE3</color>
+
+</resources>

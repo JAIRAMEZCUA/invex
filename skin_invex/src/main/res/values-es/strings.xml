@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Sign v4 -->
+    <string name="video_sign_finish_text">Confirmar</string>
+    <string name="sign_start_text">Asegúrese de leer el documento y\nagrega tu firma.</string>
+    <string name="sign_instructions_info">Acepta los espacios\nmarcados en el documento</string>
+    <string name="sign_review_sign_text"><b>Firma de documento</b></string>
+    <string name="sign_review_info_text">¿Tu firma es  legible y correcta?</string>
+    <string name="sign_send_title">Envío de documento</string>
+    <string name="sign_send_text">Tu documento firmado está listo. Se enviará una copia al correo que registraste:</string>
+    <string name="sign_review_retry_text">No, volver a firmar</string>
+    <string name="sign_review_confirm_text">Si, Continuar</string>
+    <string name="sign_send_continue">Enviar</string>
+    <string name="video_sign_tap_text">Enfoca tu rostro y toca aquí para iniciar a firmar</string>
+    <string name="text_check_all_signs">He leído en su totalidad el documento\ny acepto las condiciones del mismo</string>
+
+    <!-- Firma -->
+    <string name="title_show_document">Firma de Contrato</string>
+    <string name="text_description_show_document">Acepta los espacios marcados en el documento.</string>
+    <string name="acceptDoc">He leído en su totalidad el documento y acepto las condiciones del mismo.</string>
+    <string name="instr1">El proceso de firma consta de dos pasos: la firma autógrafa y la aceptación verbal del compromiso. Ambos pasos son grabados en video.\n\nTienes 5 minutos para terminar el proceso.</string>
+    <string name="instr2">La aplicación utiliza una herramienta de reconocimiento facial, tu cara debe de aparecer en todo momento.\n\nEvita el uso de gorra y/o lentes oscuros.</string>
+    <string name="instr2b">La aplicación utiliza una herramienta de reconocimiento facial, tu cara debe de aparecer en todo momento.\n\nEvita el uso de gorra y/o lentes oscuros.</string>
+    <string name="instr3">Si transcurren más de 2 segundos sin que se detecte tu cara, deberás comenzar de nuevo.\n\nAl interrumpir el proceso se reiniciará para garantizar tu seguridad</string>
+    <string name="instr4">Asegúrate de que tu <b>rostro</b> se vea <b>completo</b> y de manera <b>clara</b> en\nla pantalla durante el proceso de firma. Además, deberás <b>hablar\nfuerte y claro</b> cuando se te solicite.</string>
+    <string name="instr5">Si durante alguno de los pasos transcurren <b>más de 2 segundos\nsin que se detecte tu rostro</b>, deberás hacerlo nuevamente.</string>
+    <string name="instr6">Debes seguir todas las instrucciones anteriores para\n<b>garantizar que la firma tenga validez legal</b>.</string>
+    <string name="Scontinue">Continuar</string>
+    <string name="faceDetected">Cara detectada</string>
+    <string name="noFaceDetected">Cara no detectada</string>
+    <string name="recieveT"><b>Envío de documento</b></string>
+    <string name="firstTouch">Si tu cara ha sido detectada\nhaz clic aquí para iniciar el\nproceso de firma.</string>
+    <string name="firstTouch2">Firma aquí</string>
+    <string name="send_description">Tu documento está listo para enviarse, ingresa el o los correo a los cuales se enviará\nel documento firmado.</string>
+    <string name="send_description_b">Tu documento firmado está listo. Se enviará una copia al correo que registraste:</string>
+    <string name="sendInfo">Enviar</string>
+    <string name="text_signs">Firma de contrato</string>
+    <string name="text_sign_confirm_title">Confirma tu firma de contrato</string>
+    <string name="text_sign_confirm_info">Valida que la firma sea legible y el video sea claro.</string>
+    <string name="text_cancel">¿Seguro que deseas cancelar el proceso?</string>
+    <string name="cancel">Regresar</string>
+
+    <!-- alert_messagefad-->
+    <string name="fad_send_info">Enviar información</string>
+    <string name="text_finish_process">Has terminado el proceso de firma del Contrato. Una vez cargado, no podrás revertir esta acción.</string>
+    <!-- alert_dialog_time-->
+    <string name="description_success">Has terminado exitosamente el proceso de firma. En breve recibirás un email de confirmación.</string>
+    <string name="description_expired">Has excedido el tiempo para firmar, por lo cual es necesario volver a realizar el proceso de firma.</string>
+
+    <string name="text_quality_image_error">La imagen no cuenta con la calidad necesaria, por favor inténtalo nuevamente.</string>
+    <string name="identity_invalid_capture">La imagen no cuenta con la calidad necesaria, por favor inténtalo nuevamente.</string>
+    <string name="text_error_process">Hubo un error, por favor inténtalo nuevamente.</string>
+
+    <string name="nameApp">Invex</string>
+    <string name="text_showdocument">Debes de firmar en todos los espacios marcados en rojo para aperturar tu cuenta.</string>
+    <string name="text_loading">Cargando</string>
+    <string name="sign_start_title"><b>Firma de Terminos y\ncondiciones</b></string>
+    <string name="sign_review_info_title">Confirma tu firma</string>
+    <string name="sign_send_complete_dialog_text">Has confirmado la firma del documento. Enviaremos el documento firmado a:</string>
+
+    <string name="text_sign">Acepto firmar aquí</string>
+    <string name="box_sign">#7E84F2</string>
+    <string name="text_box_sign">#FFFFFF</string>
+    <string name="box_sign_click">#3FA69B</string>
+
+
+</resources>

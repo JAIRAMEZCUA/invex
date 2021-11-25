@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_head_round_rect">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_header_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:layout_marginStart="@dimen/fad_view_margin"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            style="@style/Fad_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="120dp"
+            android:gravity="start|center"
+            android:textColor="@color/facetec_primary"
+            android:text="Solicitar tarjeta"
+            android:textAlignment="textStart" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/fad_view_margin"
+            android:src="@drawable/ic_fad_bio_logo"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</FrameLayout>
