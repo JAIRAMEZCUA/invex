@@ -128,4 +128,30 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/lls_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fad_view_margin"
+            android:gravity="center"
+            android:text="@string/sign_sending_info"
+            android:textColor="#fff" />
+
+        <ProgressBar
+            android:id="@+id/fad_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="16dp"
+            android:progressTint="@color/progressbar_tint" />
+
+    </LinearLayout>
+
 </RelativeLayout>

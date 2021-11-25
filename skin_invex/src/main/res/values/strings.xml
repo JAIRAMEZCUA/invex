@@ -56,8 +56,6 @@
     <string name="text_loading">Cargando</string>
     <string name="sign_start_title"><b>Firma de Terminos y\ncondiciones</b></string>
     <string name="sign_review_info_title">Confirma tu firma</string>
-    <string name="sign_send_complete_dialog_text">Has confirmado la firma del documento. Enviaremos el documento firmado a:</string>
-
 
 
     <!-- pdf -->
