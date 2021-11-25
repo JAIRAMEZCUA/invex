@@ -18,13 +18,12 @@
 
         <TextView
             style="@style/Fad_Title"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="120dp"
-            android:gravity="start|center"
+            android:gravity="center"
+            android:textStyle="bold"
             android:textColor="@color/facetec_primary"
-            android:text="Solicitar tarjeta"
-            android:textAlignment="textStart" />
+            android:text="Solicitar tarjeta" />
 
         <ImageView
             android:id="@+id/iv_logo"

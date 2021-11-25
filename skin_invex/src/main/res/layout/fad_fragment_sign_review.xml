@@ -29,13 +29,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/fad_view_margin"
-                android:gravity="start|center">
+                android:gravity="start">
 
                 <ImageView
                     android:id="@+id/img_review_sign"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fad_view_margin"
                     android:adjustViewBounds="true"
                     android:background="#fff"
                     android:src="@drawable/fad_ic_instructions_document" />
@@ -52,13 +52,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/fad_view_margin"
-                android:gravity="start|center">
+                android:gravity="start">
 
                 <ImageView
                     android:id="@+id/img_review_video_sign"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fad_view_margin"
                     android:adjustViewBounds="true"
                     android:background="#fff"
                     android:src="@drawable/fad_ic_instructions_document" />
@@ -80,20 +80,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/white"
+        android:background="@color/facetec_foreground"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fad_view_margin"
-            android:layout_marginTop="@dimen/fad_view_margin"
             android:layout_marginEnd="@dimen/fad_view_margin"
             android:orientation="vertical"
             android:padding="@dimen/fad_view_margin">
 
             <TextView
                 style="@style/SubTitle"
+                android:layout_marginTop="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -101,6 +101,7 @@
 
             <TextView
                 style="@style/SubTitle"
+                android:layout_marginBottom="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"

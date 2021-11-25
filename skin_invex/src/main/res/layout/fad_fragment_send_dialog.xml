@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/invex_layout_margin"
-        android:text="@string/sign_send_complete_dialog_text" />
+        android:text="@string/sign_send_complete" />
 
     <TextView
         android:id="@+id/tv_send_email"
@@ -27,6 +27,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
+        android:gravity="center"
         android:layout_height="wrap_content"
         android:layout_margin="32dp">
 
@@ -40,7 +41,7 @@
         <Button
             android:id="@+id/btn_dialog_accept"
             style="@style/BaseButton"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="24dp"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:text="Enviar" />

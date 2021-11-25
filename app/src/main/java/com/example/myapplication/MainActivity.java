@@ -77,19 +77,7 @@ public class MainActivity extends AppCompatActivity {
         if (data == null) return;
         if (requestCode == SIGN_REQUEST_CODE) {
             if (resultCode == RESULT_OK) {
-                Bundle result = data.getExtras();
-                boolean success = result.getBoolean("success");
-                String processId = result.getString("processId");
-
-                if (success) {
-                    Toast.makeText(this, "Proceso de firma completado.", Toast.LENGTH_SHORT).show();
-                    // process completed
-                    // showResult(processId);
-                } else {
-                    // process with error
-                    String error = result.getString("error");
-                    Toast.makeText(this, error, Toast.LENGTH_SHORT).show();
-                }
+                Toast.makeText(this, "Proceso de firma completado.", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, "Proceso de firma cancelado.", Toast.LENGTH_SHORT).show();
             }

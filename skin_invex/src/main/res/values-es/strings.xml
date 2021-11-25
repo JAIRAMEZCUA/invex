@@ -11,7 +11,7 @@
     <string name="sign_review_retry_text">No, volver a firmar</string>
     <string name="sign_review_confirm_text">Si, Continuar</string>
     <string name="sign_send_continue">Enviar</string>
-    <string name="video_sign_tap_text">Enfoca tu rostro y toca aquí para iniciar a firmar</string>
+    <string name="video_sign_tap_text">Enfoca tu rostro y toca aquí\npara iniciar a firmar</string>
     <string name="text_check_all_signs">He leído en su totalidad el documento\ny acepto las condiciones del mismo</string>
 
     <!-- Firma -->
@@ -56,7 +56,7 @@
     <string name="text_loading">Cargando</string>
     <string name="sign_start_title"><b>Firma de Terminos y\ncondiciones</b></string>
     <string name="sign_review_info_title">Confirma tu firma</string>
-
+    <string name="sign_send_complete">Has confirmado la firma del\ndocumento. Enviarémos el\ndocumento firmado a:</string>
     <string name="text_sign">Acepto firmar aquí</string>
     <string name="box_sign">#7E84F2</string>
     <string name="text_box_sign">#FFFFFF</string>

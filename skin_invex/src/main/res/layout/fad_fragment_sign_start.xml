@@ -43,9 +43,9 @@
             style="@style/SubTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
             android:background="@drawable/fad_bg_info_text"
             android:padding="@dimen/fad_view_margin">
 

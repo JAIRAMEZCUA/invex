@@ -16,8 +16,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="28dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="42dp"
         app:layout_constraintVertical_chainStyle="packed">
 
         <CheckBox
@@ -31,8 +32,11 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/invex_view_margin"
             android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginRight="@dimen/invex_layout_margin"
+            android:layout_marginLeft="@dimen/invex_layout_margin"
             android:text="@string/text_check_all_signs"
             android:textColor="@color/black_transparent" />
 
