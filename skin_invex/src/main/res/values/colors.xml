@@ -19,5 +19,6 @@
     <color name="buttonContorno">#b4bcf4</color>
     <color name="colorAccentSecundaryFAD">#6A2A3163</color>
     <color name="colorHeader">#777AE3</color>
+    <color name="border_conditions">#8E8D8D</color>
 
 </resources>

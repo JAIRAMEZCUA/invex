@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Sign v4 -->
-    <string name="video_sign_finish_text">Confirmar</string>
+    <string name="video_sign_finish_text">Continuar</string>
     <string name="sign_start_text">Asegúrese de leer el documento y\nagrega tu firma.</string>
     <string name="sign_instructions_info">Acepta los espacios\nmarcados en el documento</string>
     <string name="sign_review_sign_text"><b>Firma de documento</b></string>

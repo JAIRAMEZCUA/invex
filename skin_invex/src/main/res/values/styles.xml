@@ -30,6 +30,7 @@
     <style name="BaseButton" tools:ignore="ResourceName">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:height">45dp</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#a7a7df</item>
         <item name="android:background">@drawable/base_button_text</item>
